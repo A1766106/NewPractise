@@ -15,11 +15,11 @@ hunter::hunter(string n, int v)
     volume = v;
     set_Kills(0);
 }
-void hunter::set_Kills(int k)
+void hunter::set_kills(int k)
 {
     kills = k;
 }
-int hunter::get_Kills()
+int hunter::get_kills()
 {
  return kills;
 }

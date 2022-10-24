@@ -12,8 +12,8 @@ class hunter: public animal {
         int kills ;   
     public:
         hunter(std::string n, int v);  // create a hunter with name n and body volume v
-        void set_Kills(int k);
-        int get_Kills();
+        void set_kills(int k);
+        int get_kills();
         std::string get_name();
 
 };
