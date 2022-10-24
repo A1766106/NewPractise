@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class sort_by_animalID{
+class sort_by_animalID: public zoo{
     public:
         static void sort(animal **animals,int n);	
 
