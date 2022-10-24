@@ -34,7 +34,7 @@ int zoo::get_number_of_animals()
 {
     return number_of_animals;
 }
-animal** zoo::get_animal()
+animal** zoo::get_animals()
 {
     return animals;
 }
