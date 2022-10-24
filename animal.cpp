@@ -2,6 +2,8 @@
 #include <iostream>
 #include <string.h>
 
+animal::animal(){}
+
 animal::animal(string n, int v)
 {
     name = n;
