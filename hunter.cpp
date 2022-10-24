@@ -13,7 +13,7 @@ hunter::hunter(string n, int v)
     nextID++;
     name = n;
     volume = v;
-    set_Kills(0);
+    set_kills(0);
 }
 void hunter::set_kills(int k)
 {
