@@ -9,9 +9,9 @@
 
 using namespace std;
 
-class sort_by_Name{
+class sort_by_name{
     public:
-        static void sort_by_name(animal **animals,int n)
+        static void sort(animal **animals,int n)
         {
            for(int i=0;i<n;i++)
             {
