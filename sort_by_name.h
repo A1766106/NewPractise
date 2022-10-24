@@ -11,7 +11,7 @@ using namespace std;
 
 class sort_by_Name{
     public:
-        static void sort(animal **animals,int n)
+        static void sort_by_name(animal **animals,int n)
         {
            for(int i=0;i<n;i++)
             {
