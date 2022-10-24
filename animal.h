@@ -16,8 +16,8 @@ class animal{
                             // animals are allocated a unique ID on creation
         virtual string get_name() = 0; 
         void set_name(string n);
-        void set_Volume(int v);
-        int get_Volume();
+        void set_volume(int v);
+        int get_volume();
         int get_animalID();
 
 };

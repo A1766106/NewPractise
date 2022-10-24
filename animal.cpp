@@ -14,11 +14,11 @@ void animal::set_name(string n)
 {
     name = n;
 }
-void animal::set_Volume(int v)
+void animal::set_volume(int v)
 {
     volume = v;
 }
-int animal::get_Volume()
+int animal::get_volume()
 {
     return volume;
 }
